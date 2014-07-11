@@ -17,7 +17,7 @@ var gain;
 
 var response = prompt(' (C)alculate your calories (Y)es or (N)o? ');
 
-while( response != 'Q'){
+while( response != 'N'){
   food = prompt(' What did you eat? ');
   cal = prompt(' How many calories? ');
   cal = parseInt(cal);
