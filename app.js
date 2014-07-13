@@ -15,7 +15,7 @@ var sum = 0;
   
 var gain;
 
-var response = prompt(' (C)alculate your calories (Y)es or (N)o? ');
+var response = prompt(' Calculate your calories (Y)es or (N)o? ');
 
 while( response != 'N'){
   food = prompt(' What did you eat? ');
@@ -39,7 +39,7 @@ if (gender === 'M'){
 }
 
 newWeight = weight + gain;
-newWeight = Math.round(newWeight);
+newWeight = Math.floor(newWeight);
 
 var foodList = meals.toString();
 
