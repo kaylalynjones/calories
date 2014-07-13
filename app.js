@@ -32,11 +32,14 @@ for( i = 0; i < calories.length; i++ ){
   sum += calories[i];
 }
 
-if (gender === 'M'){
+/*if (gender === 'M'){
   gain = sum/limitM;
 } else {
   gain = sum/limitF;
-}
+}*/
+
+//use ternary op
+gain = (gender === 'M') ? sum/limitM : sum/limitF;
 
 newWeight = weight + gain;
 newWeight = Math.floor(newWeight);
