@@ -12,7 +12,7 @@ var limitM = 4000;
 var limitF = 3000;
 var newWeight = 0;
 var sum = 0;
-
+  
 var gain;
 
 var response = prompt(' (C)alculate your calories (Y)es or (N)o? ');
