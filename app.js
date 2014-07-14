@@ -44,7 +44,7 @@ gain = (gender === 'M') ? sum/limitM : sum/limitF;
 newWeight = weight + gain;
 newWeight = Math.floor(newWeight);
 
-var foodList = meals.toString();
+var foodList = meals.join(', ');
 
 console.log(' You ate ' + foodList + '. ');
 console.log(' That is ' + sum + ' many calories. ');
